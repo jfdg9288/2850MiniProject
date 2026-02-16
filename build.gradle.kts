@@ -13,6 +13,10 @@ java {
 	}
 }
 
+kotlin {
+    jvmToolchain(21)
+}
+
 repositories {
 	mavenCentral()
 }
@@ -39,8 +43,4 @@ dependencies {
 
 application {
     mainClass.set("com.library.library.ApplicationKt")
-}
-
-kotlin {
-    jvmToolchain(21)
 }
