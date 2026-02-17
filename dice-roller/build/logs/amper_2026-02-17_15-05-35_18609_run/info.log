@@ -1,0 +1,9 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:05.745 INFO  :dice-roller:compileJvm   JvmCompileTask            Compiling module 'dice-roller' for platform 'jvm'...
+00:11.627 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:81:13 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun FlowContent.p(classes: String? = ..., crossinline block: P.() -> Unit = ...): Unit
+00:11.639 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:86:13 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun FlowContent.p(classes: String? = ..., crossinline block: P.() -> Unit = ...): Unit
+00:11.640 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:95:1 Syntax error: Expecting a top level declaration.

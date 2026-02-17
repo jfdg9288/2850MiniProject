@@ -1,0 +1,6 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:03.903 INFO  :dice-roller:compileJvm   JvmCompileTask            Compiling module 'dice-roller' for platform 'jvm'...
+00:10.192 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:73:17 Unresolved reference 'Type'.
+00:10.194 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:76:17 Unresolved reference 'Placeholder'.

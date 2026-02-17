@@ -1,0 +1,5 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:19.966 INFO  :dice-roller:compileJvm   Downloader                Downloading https://corretto.aws/downloads/resources/21.0.1.12.1/amazon-corretto-21.0.1.12.1-linux-x64.tar.gz to /home/codespace/.cache/JetBrains/Amper/download.cache/b1fa834a91-amazon-corretto-21.0.1.12.1-linux-x64.tar.gz
+00:30.129 INFO  :dice-roller:compileJvm   JvmCompileTask            Compiling module 'dice-roller' for platform 'jvm'...

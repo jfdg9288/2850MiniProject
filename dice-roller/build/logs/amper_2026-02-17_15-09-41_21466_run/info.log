@@ -1,0 +1,25 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:03.836 INFO  :dice-roller:compileJvm   JvmCompileTask            Compiling module 'dice-roller' for platform 'jvm'...
+00:10.270 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:68:13 Syntax error: Expecting an element.
+00:10.273 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:68:14 Function invocation 'form(...)' expected.
+00:10.277 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:68:19 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+var CoreAttributeGroupFacade.id: String
+00:10.280 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:68:21 Syntax error: Expecting an element.
+00:10.282 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:68:22 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+00:10.286 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:69:13 Syntax error: Expecting an element.
+00:10.289 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:69:14 Function invocation 'input(...)' expected.
+00:10.291 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:69:20 Unresolved reference 'type'.
+00:10.295 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:69:24 Syntax error: Expecting an element.
+00:10.296 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:69:25 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+00:10.299 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:13 Syntax error: Expecting an element.
+00:10.301 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:14 Function invocation 'button(...)' expected.
+00:10.304 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:20 Unresolved reference 'compareTo'.
+00:10.307 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:21 Unresolved reference 'Search'.
+00:10.308 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:28 Syntax error: Expecting an element.
+00:10.311 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:28 Argument type mismatch: actual type is 'Unit', but 'Boolean' was expected.
+00:10.314 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:29 'infix' modifier is required on 'fun FlowOrInteractiveOrPhrasingContent.button(formEncType: ButtonFormEncType? = ..., formMethod: ButtonFormMethod? = ..., name: String? = ..., type: ButtonType? = ..., classes: String? = ..., crossinline block: BUTTON.() -> Unit = ...): Unit'.
+00:10.315 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:70:35 Syntax error: Expecting an element.
+00:10.318 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:71:13 Syntax error: Expecting an element.
+00:10.322 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:71:14 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).

@@ -12,61 +12,52 @@ import kotlinx.html.*
 fun Application.configureRouting() {
     routing {
         get("/") { call.displayForm() }
-        get("/roll") { call.handleDiceRoll() }
+        get("/search") { call.handleBookSearch() }
     }
 }
 
 private suspend fun ApplicationCall.displayForm() {
     respondHtmlTemplate(LayoutTemplate()) {
-        titleText { +"Dice Roller" }
+        titleText { +"Library" }
         content {
-            h1 { +"Dice Roller" }
-            form(action = "/roll", method = FormMethod.get) {
-                label {
-                    htmlFor = "numDice"
-                    +"Number of dice"
-                }
-                numberInput {
-                    id = "numDice"
-                    name = "num"
-                    min = "1"
-                    max = "10"
-                    value = "3"
-                    required = true
-                }
+            h1 { +"Library" }
+            form(action = "/search", method = FormMethod.get) {
+                input {
 
-                label {
-                    htmlFor = "dieName"
-                    +"Die to roll"
+                    type = InputType.text
+                    id = "query"
+                    name = "q"
+                    placeholder = "search"
                 }
-                select {
-                    id = "dieName"
-                    name = "die"
-                    required = true
-                    dieOptions.forEach { value ->
-                        option {
-                            if (value == "d6") { selected = true }
-                            +value
-                        }
-                    }
-                }
-
-                button { +"Roll Dice" }
+                button { +"Search" }
             }
+
         }
     }
 }
 
-private suspend fun ApplicationCall.handleDiceRoll() {
-    val (num, die) = getDiceDetails(request)
+
+private suspend fun ApplicationCall.handleBookSearch() {
+    val (name) = getDiceDetails(request)
     val results = diceRoll(num, die)
 
     respondHtmlTemplate(LayoutTemplate()) {
-        titleText { +"Dice Results" }
+        titleText { +"Search Results" }
         content {
-            h1 { +"Dice Results" }
+            h1 { +"Library" }
+            
 
-            p { +"You rolled ${num}${die}" }
+            p { +"Showing results for" }
+
+            form(action = "/search", method = FormMethod.get) {
+                input {
+
+                    type = InputType.text
+                    id = "query"
+                    name = "q"
+                    placeholder = "search"
+                }
+            }
 
             p {
                 +"The result was: "
