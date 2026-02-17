@@ -85,7 +85,7 @@ private suspend fun ApplicationCall.handleBookSearch() {
     }
 }
 
-private fun getDiceDetails(request: ApplicationRequest) = Pair(
+private fun getBookDetails(request: ApplicationRequest) = Pair(
     request.queryParameters["num"]?.toInt() ?: error("Number of dice not specified"),
     request.queryParameters["die"] ?: error("Die not specified")
 )
