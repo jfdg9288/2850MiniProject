@@ -12,9 +12,11 @@ Here are some useful links to get you started:
 
 Here's a list of features included in this project:
 
-| Name                                               | Description                                                 |
-| ----------------------------------------------------|------------------------------------------------------------- |
-| [Routing](https://start.ktor.io/p/routing-default) | Allows to define structured routes and associated handlers. |
+| Name                                                     | Description                                    |
+| ----------------------------------------------------------|------------------------------------------------ |
+| [Routing](https://start.ktor.io/p/routing)               | Provides a structured routing DSL              |
+| [Thymeleaf](https://start.ktor.io/p/thymeleaf)           | Serves HTML content, templated using Thymeleaf |
+| [Static Content](https://start.ktor.io/p/static-content) | Serves static files from defined locations     |
 
 ## Building & Running
 
