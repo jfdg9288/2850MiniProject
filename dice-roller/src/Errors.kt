@@ -11,7 +11,7 @@ fun Application.configureErrorHandling() {
     install(StatusPages) {
         status(HttpStatusCode.NotFound) { call, status ->
             call.respondHtmlTemplate(LayoutTemplate(), status = status) {
-                titleText { +"Error: Die Roller" }
+                titleText { +"Error: Library" }
                 content {
                     h1 { +"404 Page Not Found" }
                     p { +"Oh no!" }
@@ -22,7 +22,7 @@ fun Application.configureErrorHandling() {
 
         exception<Throwable> { call, error ->
             call.respondHtmlTemplate(LayoutTemplate(), HttpStatusCode.InternalServerError) {
-                titleText { +"Error: Die Roller" }
+                titleText { +"Error: Book not found" }
                 content {
                     h1 { +"500 Internal Server Error" }
                     p { +"${error.message}" }

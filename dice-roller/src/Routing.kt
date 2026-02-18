@@ -23,69 +23,40 @@ private suspend fun ApplicationCall.displayForm() {
             h1 { +"Library" }
             form(action = "/search", method = FormMethod.get) {
                 input {
-
                     type = InputType.text
                     id = "query"
-                    name = "q"
+                    name = "name"
                     placeholder = "search"
+                    required = true
                 }
                 button { +"Search" }
             }
-
         }
     }
 }
 
 
 private suspend fun ApplicationCall.handleBookSearch() {
-    val (name) = getDiceDetails(request)
-    val results = diceRoll(num, die)
+    var name = getBookDetails(request)
 
     respondHtmlTemplate(LayoutTemplate()) {
         titleText { +"Search Results" }
         content {
             h1 { +"Library" }
-            
-
-            p { +"Showing results for" }
-
+            p { +"Showing results for ${name}" }
             form(action = "/search", method = FormMethod.get) {
                 input {
-
                     type = InputType.text
                     id = "query"
-                    name = "q"
+                    name = "name"
                     placeholder = "search"
+                    required = true
                 }
-            }
-
-            p {
-                +"The result was: "
-                strong {
-                    +"${results[0]}"
-                    for (result in results.drop(1)) {
-                        +", $result"
-                    }
-                }
-            }
-
-            p {
-                +"For a total of "
-                strong{ +"${results.sum()}" }
-            }
-
-            p {
-                +"You can "
-                a(request.uri) { +"repeat this roll" }
-                +", or request a "
-                a("/") { +"new roll" }
-                +"."
             }
         }
     }
 }
 
-private fun getBookDetails(request: ApplicationRequest) = Pair(
-    request.queryParameters["num"]?.toInt() ?: error("Number of dice not specified"),
-    request.queryParameters["die"] ?: error("Die not specified")
+private fun getBookDetails(request: ApplicationRequest) = (
+    request.queryParameters["name"] ?: error("Book not specified")
 )

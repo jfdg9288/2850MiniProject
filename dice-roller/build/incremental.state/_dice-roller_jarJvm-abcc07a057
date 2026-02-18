@@ -12,27 +12,27 @@
     ],
     "inputFilesState": {
         "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/java-output": "EMPTY DIR",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ApplicationKt.class": "size 1079 mtime 2026-02-17T15:47:36.439943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/DiceKt.class": "size 3476 mtime 2026-02-17T15:47:36.442943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/Die$Companion.class": "size 2055 mtime 2026-02-17T15:47:36.442943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/Die.class": "size 2866 mtime 2026-02-17T15:47:36.441943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ErrorsKt$configureErrorHandling$1$1.class": "size 8271 mtime 2026-02-17T15:47:36.442943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ErrorsKt$configureErrorHandling$1$2.class": "size 8278 mtime 2026-02-17T15:47:36.442943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ErrorsKt.class": "size 3413 mtime 2026-02-17T15:47:36.442943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/LayoutTemplate.class": "size 9392 mtime 2026-02-17T15:47:36.443943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/META-INF/main.kotlin_module": "size 72 mtime 2026-02-17T15:47:36.443943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/RoutingKt$configureRouting$1$1.class": "size 3242 mtime 2026-02-17T15:47:36.443943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/RoutingKt$configureRouting$1$2.class": "size 3247 mtime 2026-02-17T15:47:36.443943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/RoutingKt.class": "size 21318 mtime 2026-02-17T15:47:36.442943633Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/resources-output/application.yaml": "size 110 mtime 2026-02-17T15:47:36.507943631Z",
-        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/resources-output/logback.xml": "size 425 mtime 2026-02-17T15:47:36.507943631Z"
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ApplicationKt.class": "size 1079 mtime 2026-02-18T10:40:58.809435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/DiceKt.class": "size 3476 mtime 2026-02-18T10:40:58.809435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/Die$Companion.class": "size 2055 mtime 2026-02-18T10:40:58.809435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/Die.class": "size 2866 mtime 2026-02-18T10:40:58.809435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ErrorsKt$configureErrorHandling$1$1.class": "size 8271 mtime 2026-02-18T10:40:58.810435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ErrorsKt$configureErrorHandling$1$2.class": "size 8278 mtime 2026-02-18T10:40:58.810435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/ErrorsKt.class": "size 3413 mtime 2026-02-18T10:40:58.809435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/LayoutTemplate.class": "size 9392 mtime 2026-02-18T10:40:58.810435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/META-INF/main.kotlin_module": "size 72 mtime 2026-02-18T10:40:58.814435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/RoutingKt$configureRouting$1$1.class": "size 3242 mtime 2026-02-18T10:40:58.810435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/RoutingKt$configureRouting$1$2.class": "size 3247 mtime 2026-02-18T10:40:58.810435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/kotlin-output/RoutingKt.class": "size 15348 mtime 2026-02-18T10:40:58.810435784Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/resources-output/application.yaml": "size 110 mtime 2026-02-18T10:40:58.847435783Z",
+        "/workspaces/2850MiniProject/dice-roller/build/artifacts/CompiledJvmClassesArtifact/dice-rollerjvm/resources-output/logback.xml": "size 425 mtime 2026-02-18T10:40:58.847435783Z"
     },
     "outputValues": {},
     "outputFiles": [
         "/workspaces/2850MiniProject/dice-roller/build/tasks/_dice-roller_jarJvm/dice-roller-jvm.jar"
     ],
     "outputFilesState": {
-        "/workspaces/2850MiniProject/dice-roller/build/tasks/_dice-roller_jarJvm/dice-roller-jvm.jar": "size 30879 mtime 2026-02-17T15:47:36.610943628Z mode 438 owner codespace group codespace"
+        "/workspaces/2850MiniProject/dice-roller/build/tasks/_dice-roller_jarJvm/dice-roller-jvm.jar": "size 28660 mtime 2026-02-18T10:40:58.918435781Z mode 438 owner codespace group codespace"
     },
     "excludedOutputFiles": []
 }
