@@ -1,0 +1,18 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1030-azure jvm arch amd64
+
+00:03.658 INFO  :dice-roller:compileJvm   JvmCompileTask            Compiling module 'dice-roller' for platform 'jvm'...
+00:09.765 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:49:13 Unresolved reference 'list'.
+00:09.768 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:50:17 Unresolved reference 'item'.
+00:09.771 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:51:17 Unresolved reference 'item'.
+00:09.774 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:26:13 None of the following candidates is applicable:
+fun <TTemplate : Template<TOuter>, TOuter> TOuter.insert(template: TTemplate, placeholder: TemplatePlaceholder<TTemplate>): Unit
+fun <TOuter, TTemplate : Template<TOuter>> TOuter.insert(template: TTemplate, build: TTemplate.() -> Unit): Unit
+00:09.778 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:34:16 Unresolved reference 'TemplatePlaceholder'.
+00:09.782 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:49:16 Unresolved reference 'PlaceholderList'.
+00:09.785 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:51:11 Syntax error: Expecting a condition in parentheses '(...)'.
+00:09.788 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:51:12 Unresolved reference 'not'.
+00:09.793 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:53:17 Unresolved reference 'each'.
+00:09.797 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:55:29 Unresolved reference 'it'.
+00:09.798 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:57:40 Unresolved reference 'it'.
+00:09.803 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:60:36 Unresolved reference 'it'.

@@ -1,0 +1,12 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1030-azure jvm arch amd64
+
+00:03.673 INFO  :dice-roller:compileJvm   JvmCompileTask            Compiling module 'dice-roller' for platform 'jvm'...
+00:09.582 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:40:16 Collection literals outside of annotations are unsupported.
+00:09.584 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Routing.kt:50:13 Unresolved reference 'insert'.
+00:09.585 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:31:16 Unresolved reference 'PlaceholderList'.
+00:09.587 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:33:13 Unresolved reference 'not' for operator '!'.
+00:09.589 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:35:17 Unresolved reference 'each'.
+00:09.592 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:37:29 Unresolved reference 'it'.
+00:09.593 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:39:40 Unresolved reference 'it'.
+00:09.595 ERROR :dice-roller:compileJvm   KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/dice-roller/src/Templates.kt:42:36 Unresolved reference 'it'.

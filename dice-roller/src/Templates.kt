@@ -1,8 +1,10 @@
 // Base template for laying out a page
 
-import io.ktor.server.html.Placeholder
-import io.ktor.server.html.Template
+import io.ktor.server.application.*
+import io.ktor.server.html.*
+import io.ktor.http.*
 import io.ktor.server.html.insert
+import io.ktor.server.routing.*
 import kotlinx.html.*
 
 class LayoutTemplate : Template<HTML> {
@@ -26,3 +28,4 @@ class LayoutTemplate : Template<HTML> {
         }
     }
 }
+
