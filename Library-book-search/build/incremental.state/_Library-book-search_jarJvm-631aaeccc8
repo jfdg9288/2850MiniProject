@@ -1,0 +1,39 @@
+{
+    "codeVersion": "0.9.2",
+    "inputValues": {
+        "inputDirsDestPaths": "[., ., .]",
+        "jarConfig": "{\"mainClassFqn\":\"ApplicationKt\"}",
+        "outputJarPath": "/workspaces/2850MiniProject/Library-book-search/build/tasks/_Library-book-search_jarJvm/Library-book-search-jvm.jar"
+    },
+    "inputFiles": [
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/java-output",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/resources-output"
+    ],
+    "inputFilesState": {
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/java-output": "EMPTY DIR",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/ApplicationKt.class": "size 2772 mtime 2026-03-24T17:36:28.059956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/DiceKt.class": "size 3476 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/Die$Companion.class": "size 2055 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/Die.class": "size 2866 mtime 2026-03-24T17:36:28.059956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/ErrorsKt$configureErrorHandling$1$1.class": "size 8268 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/ErrorsKt$configureErrorHandling$1$2.class": "size 8282 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/ErrorsKt.class": "size 3413 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/LayoutTemplate.class": "size 9400 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/META-INF/main.kotlin_module": "size 72 mtime 2026-03-24T17:36:28.065956372Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/RoutingKt$configureRouting$1$1.class": "size 3242 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/RoutingKt$configureRouting$1$2.class": "size 3247 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/kotlin-output/RoutingKt.class": "size 15216 mtime 2026-03-24T17:36:28.060956373Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/resources-output/application.yaml": "size 110 mtime 2026-03-24T17:36:28.097956371Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/resources-output/library_booklist.csv": "size 96679 mtime 2026-03-24T17:36:28.097956371Z",
+        "/workspaces/2850MiniProject/Library-book-search/build/artifacts/CompiledJvmClassesArtifact/Library-book-searchjvm/resources-output/logback.xml": "size 425 mtime 2026-03-24T17:36:28.097956371Z"
+    },
+    "outputValues": {},
+    "outputFiles": [
+        "/workspaces/2850MiniProject/Library-book-search/build/tasks/_Library-book-search_jarJvm/Library-book-search-jvm.jar"
+    ],
+    "outputFilesState": {
+        "/workspaces/2850MiniProject/Library-book-search/build/tasks/_Library-book-search_jarJvm/Library-book-search-jvm.jar": "size 43936 mtime 2026-03-24T17:36:28.214956367Z mode 438 owner codespace group codespace"
+    },
+    "excludedOutputFiles": []
+}
