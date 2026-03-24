@@ -1,8 +1,8 @@
 import java.io.File
 import java.io.InputStream
+implementation("org.jetbrains.kotlinx:dataframe-csv:1.0.0-Beta4")
 
 fun main () {
-  val inputStream: InputStream = File ("library_booklist.csv").inputStream()
-  val inputString = inputStream.reader().use {it.readText()}
-  println (inputString)
+    val df = DataFrame.readCsv("library_booklist.csv")
+    println(df)
 }

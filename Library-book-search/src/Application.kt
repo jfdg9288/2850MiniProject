@@ -3,6 +3,9 @@
 import io.ktor.server.application.Application
 import java.io.File
 import java.io.InputStream
+import org.jetbrains.kotlinx.dataframe.*
+import org.jetbrains.kotlinx.dataframe.api.*
+import org.jetbrains.kotlinx.dataframe.io.*
 
 fun Application.module() {
     configureErrorHandling()
@@ -13,9 +16,8 @@ fun main(args: Array<String>) {
     io.ktor.server.netty.EngineMain.main(args)
 }
 
-// Code for getting file is taken from https://www.geeksforgeeks.org/kotlin/read-from-files-using-inputreader-in-kotlin/
+// code from https://kotlin.github.io/dataframe/read.html#read-from-csv
 fun getBooks() {
-    val inputStream: InputStream = File ("resources/library_booklist.csv").inputStream()
-    val inputString = inputStream.reader().use {it.readText()}
-    println (inputString)
+    val bookList = DataFrame.readCsv(File("resources/library_booklist.csv"))
+    println (bookList)
 }
