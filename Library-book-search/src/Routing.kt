@@ -44,6 +44,8 @@ private suspend fun ApplicationCall.displayForm() {
 private suspend fun ApplicationCall.handleBookSearch() {
     var name = getBookDetails(request)
     val books = getBooks()
+    val titles = books["title"]
+    println(titles)
     
 
     respondHtmlTemplate(LayoutTemplate()) {
