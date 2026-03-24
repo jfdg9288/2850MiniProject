@@ -44,9 +44,10 @@ private suspend fun ApplicationCall.displayForm() {
 private suspend fun ApplicationCall.handleBookSearch() {
     var name = getBookDetails(request)
     val books = getBooks()
+    val thing = SortDataFrame(books, name)
     val titles = books["title"]
-    println(titles)
-    
+    val authors = books["author"]
+
 
     respondHtmlTemplate(LayoutTemplate()) {
         titleText { +"Search Results" }
@@ -56,7 +57,16 @@ private suspend fun ApplicationCall.handleBookSearch() {
             }
             h1 { +"Library" }
             p { +"Showing results for ${name}" }
-            //{% for result in books %}
+            form(action = "") {
+                button { +"${titles[0]} by ${authors[0]}"}
+            }
+            form(action = "") {
+                button { +"${titles[1]} by ${authors[1]}"}
+            }
+            form(action = "") {
+                button { +"${titles[2]} by ${authors[2]}"}
+            }
+            
         }
     }
 }

@@ -18,6 +18,6 @@ fun main(args: Array<String>) {
 
 // code from https://kotlin.github.io/dataframe/read.html#read-from-csv
 fun getBooks(): DataFrame<*> {
-    val bookList = DataFrame.readCsv(File("resources/library_booklist.csv"))
+    val bookList = DataFrame.readCsv(File("resources/library_booklist.csv")).select { "title" and "author" }.distinct()
     return bookList
 }
