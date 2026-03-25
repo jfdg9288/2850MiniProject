@@ -24,8 +24,11 @@ fun Application.configureErrorHandling() {
             call.respondHtmlTemplate(LayoutTemplate(), HttpStatusCode.InternalServerError) {
                 titleText { +"Error: Book not found" }
                 content {
-                    h1 { +"500 Internal Server Error" }
-                    p { +"${error.message}" }
+                    form(action = "/", method = FormMethod.get) {
+                        button { +"Home" }
+                    }
+                    h1 { +"Sorry we couldn't find that book" }
+                    p { +"Try searching with a different term" }
                 }
             }
         }

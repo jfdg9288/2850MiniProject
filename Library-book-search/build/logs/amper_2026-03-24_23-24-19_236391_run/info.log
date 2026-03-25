@@ -1,0 +1,10 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:04.042 INFO  :Library-book-search:compileJvm JvmCompileTask            Compiling module 'Library-book-search' for platform 'jvm'...
+00:10.388 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:14:32 Syntax error: Expecting a when-condition.
+00:10.391 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:14:43 Syntax error: Expecting '->'.
+00:10.392 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:17:38 None of the following candidates is applicable:
+fun String.startsWith(prefix: String, ignoreCase: Boolean = ...): Boolean
+fun CharSequence.startsWith(char: Char, ignoreCase: Boolean = ...): Boolean
+fun CharSequence.startsWith(prefix: CharSequence, ignoreCase: Boolean = ...): Boolean

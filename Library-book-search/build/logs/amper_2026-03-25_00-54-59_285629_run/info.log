@@ -1,0 +1,7 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:03.923 INFO  :Library-book-search:compileJvm JvmCompileTask            Compiling module 'Library-book-search' for platform 'jvm'...
+00:10.452 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:33:9 Unresolved reference 'result'.
+00:10.464 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:25 Unresolved reference 'set'.
+00:10.472 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:32 Unresolved reference 'result'.

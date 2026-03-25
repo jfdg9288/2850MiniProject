@@ -1,0 +1,6 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:04.019 INFO  :Library-book-search:compileJvm JvmCompileTask            Compiling module 'Library-book-search' for platform 'jvm'...
+00:10.539 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:18:24 Return type mismatch: expected 'MutableList<String>', actual 'DataFrame<*>'.
+00:10.545 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:34:12 Return type mismatch: expected 'MutableList<String>', actual 'List<String>'.

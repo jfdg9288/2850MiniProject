@@ -1,0 +1,9 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:03.634 INFO  :Library-book-search:compileJvm JvmCompileTask            Compiling module 'Library-book-search' for platform 'jvm'...
+00:09.716 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:14:9 Incompatible types 'String?' and 'Unit'.
+00:09.718 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:15:9 Syntax error: Expecting '->'.
+00:09.720 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:15:13 Syntax error: Expecting an expression.
+00:09.721 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:15:14 Syntax error: Expecting an expression, is-condition or in-condition.
+00:09.722 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:18:49 Argument type mismatch: actual type is 'String?', but 'String' was expected.

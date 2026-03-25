@@ -1,0 +1,10 @@
+JetBrains Amper version 0.9.2 (80094bb, 2025-12-11)
+running on Linux 6.8.0-1044-azure jvm arch amd64
+
+00:03.866 INFO  :Library-book-search:compileJvm JvmCompileTask            Compiling module 'Library-book-search' for platform 'jvm'...
+00:10.814 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:15 Cannot infer type for type parameter 'C'. Specify it explicitly.
+00:10.817 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:24 Return type mismatch: expected 'ColumnsResolver<uninferred C (of fun <T, C> DataFrame<T>.update)>', actual 'String'.
+00:10.819 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:35 Cannot infer type for type parameter 'C'. Specify it explicitly.
+00:10.821 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:41 Cannot infer type for type parameter 'C'. Specify it explicitly.
+00:10.826 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:41 Cannot infer type for type parameter 'R'. Specify it explicitly.
+00:10.828 ERROR :Library-book-search:compileJvm KotlinBuildToolsApiKt     file:///workspaces/2850MiniProject/Library-book-search/src/Sorting.kt:37:46 Cannot infer type for type parameter 'C'. Specify it explicitly.
