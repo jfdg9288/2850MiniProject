@@ -63,8 +63,10 @@ private suspend fun ApplicationCall.handleBookSearch() {
                     input{
                         type = InputType.text
                         id = "query"
-                        value = titleList[i]
                         name = "bookName"
+                        placeholder = titleList[i]
+                        value = titleList[i]
+                        required = true
                     }
                     button { +"${titleList[i]}"}
                 }
