@@ -18,6 +18,7 @@ fun Application.configureRouting() {
     routing {
         get("/") { call.displayForm() }
         get("/search") { call.handleBookSearch() }
+        get("/bookInfo") { call.displayBook() }
     }
 }
 
@@ -47,7 +48,6 @@ private suspend fun ApplicationCall.handleBookSearch() {
     var titleList = SortDataFrame(books, name)
     val titles = books["title"]
     val authors = books["author"]
-    println(titleList)
 
 
     respondHtmlTemplate(LayoutTemplate()) {
@@ -59,7 +59,13 @@ private suspend fun ApplicationCall.handleBookSearch() {
             h1 { +"Library" }
             p { +"Showing results for ${name}" }
             for (i in 0 .. titleList.size-1) {
-                form(action = "") {
+                form(action = "/bookInfo", method = FormMethod.get) {
+                    input{
+                        type = InputType.text
+                        id = "query"
+                        value = titleList[i]
+                        name = "bookName"
+                    }
                     button { +"${titleList[i]}"}
                 }
             }
@@ -67,8 +73,25 @@ private suspend fun ApplicationCall.handleBookSearch() {
     }
 }
 
+private suspend fun ApplicationCall.displayBook() {
+    var book = getBookName(request)
+    println(book)
 
+
+    respondHtmlTemplate(LayoutTemplate()) {
+        titleText { +"${book}" }
+        content {
+            form(action = "/", method = FormMethod.get) {
+                button { +"Home" }
+            }
+        }
+    }
+}
 
 private fun getBookDetails(request: ApplicationRequest) = (
     request.queryParameters["name"]
+)
+
+private fun getBookName(request: ApplicationRequest) = (
+    request.queryParameters["bookName"]
 )
